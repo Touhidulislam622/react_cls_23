@@ -19,7 +19,7 @@ export default class HOOK_USESTATE extends Component {
     return (
       <div>
             <h1>count : {count}</h1>
-            <button onClick={this.handleBTN}>incBTN</button>
+            <button onClick={this.handleBTN} disabled = { count === 10 ? true : false }>incBTN</button>
       </div>
     )
   }
