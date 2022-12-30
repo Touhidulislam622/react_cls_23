@@ -1,9 +1,9 @@
 import './App.css';
-import Form from './Components/Form/Form';
+import FormEasyWay from "./Components/Form/FormEasyWay"
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FormEasyWay />
     </div>
   );
 }
